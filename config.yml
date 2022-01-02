@@ -1,0 +1,168 @@
+baseURL: "https://shahabrasekh.github.io/"
+title: Shahab Rasekh's Blog
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+defaultContentLanguage: fa
+
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  fa:
+    languagedirection: rtl
+    title: Shahab's Blog
+   # weight: 10
+
+params:
+  env: production  # to enable google analytics, opengraph, twitter-cards and schema.
+  title: شهاب راسخ
+  description: در راستای توسعه
+  keywords: [Blog, Portfolio, PaperMod, شهاب راسخ , توسعه کسب و کار ]
+  author: شهاب راسخ
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  defaultContentLanguage: fa
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "https://favicon.s3.ir-thr-at1.arvanstorage.com/favicon.ico"
+    favicon16x16: "https://favicon.s3.ir-thr-at1.arvanstorage.com/favicon-16x16.png"
+    favicon32x32: "https://favicon.s3.ir-thr-at1.arvanstorage.com/favicon-32x32.png"
+    apple_touch_icon: "https://favicon.s3.ir-thr-at1.arvanstorage.com/apple-touch-icon.png"
+    #safari_pinned_tab: "/"
+
+  label:
+    text: "شهاب راسخ"
+   # icon:
+   # iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: شهاب راسخ
+    subtitle: "در راستای توسعه"
+    #imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "تلاشی برای توسعه خودم"
+    Content: | 
+     مدیر عملیاتی علاقه مند به سازماندهی و برنامه ریزی، متعهد به استفاده از ابزارها و تکنولوژی نوین 💾 در کارهای روزانه.  از سال ۱۳۹۸ در مورد کارها و فعالیتم می نویسم ✍🏻. تا هم به خودم متعهد باشم و هم اجتماعی که در آن زندگی میکنم !
+  
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/rasekh_shahab"
+    - name: instagram
+      url: "https://instagram.com/shahab_rasekh"
+    - name: github
+      url: "https://github.com/shahabrasekh"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/shahabrasekh/"
+    - name: email
+      url: "mailto:shahabrasekh@gmail.com"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+#  editPost:
+  #  URL: "https://github.com/<path_to_repo>/content"
+    #Text: "Suggest Changes" # edit text
+   # appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+#    - identifier: categories
+ #     name: دسته ها
+#      url: /categories/
+ #     weight: 10
+#    - identifier: posts
+      #name: نوشته ها
+      #url: /posts
+      #weight: 5
+ #   - identifier: tags
+ #    name: برچسب ها
+ #   url: /tags/
+ #     weight: 20
+    - identifier: projects
+      name: پروژه ها
+      url: /project/
+      weight: 40
+    - identifier: now
+      name: اکنون
+      url: /now/
+      weight: 30
+    - identifier: archive
+      name: بایگانی
+      url: /archive/
+      weight: 50
+
+# for a search page
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
