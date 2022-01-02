@@ -8,7 +8,7 @@ author: "شهاب راسخ"
 # author: ["Me", "You"] # multiple authors
 showToc: false
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: true
 disableHLJS: true # to disable highlightjs
