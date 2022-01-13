@@ -33,7 +33,6 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   defaultContentLanguage: fa
-
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
@@ -49,7 +48,7 @@ params:
 
   assets:
     disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
+    disableFingerprinting: true
     favicon: "https://favicon.s3.ir-thr-at1.arvanstorage.com/favicon.ico"
     favicon16x16: "https://favicon.s3.ir-thr-at1.arvanstorage.com/favicon-16x16.png"
     favicon32x32: "https://favicon.s3.ir-thr-at1.arvanstorage.com/favicon-32x32.png"
@@ -61,22 +60,9 @@ params:
    # icon:
    # iconHeight: 35
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: شهاب راسخ
-    subtitle: "در راستای توسعه"
-    #imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
 
-  # home-info mode
+# home-info mode
+
   homeInfoParams:
     Title: "تلاشی برای توسعه خودم"
     Content: | 
@@ -92,7 +78,7 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/shahabrasekh/"
     - name: email
-      url: "mailto:shahabrasekh@gmail.com"
+      url: "mailto:shahab.rasekh@gmail.com"
 
   analytics:
     google:
@@ -112,8 +98,8 @@ params:
     #Text: "Suggest Changes" # edit text
    # appendFilePath: true # to append file path to Edit link
 
-  # for search
-  # https://fusejs.io/api/options.html
+   #for search
+   #https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -129,24 +115,24 @@ menu:
 #      url: /categories/
  #     weight: 10
 #    - identifier: posts
-      #name: نوشته ها
-      #url: /posts
-      #weight: 5
+#     name: نوشته ها
+#      url: /posts
+#      weight: 5
  #   - identifier: tags
  #    name: برچسب ها
  #   url: /tags/
  #     weight: 20
-    - identifier: projects
-      name: پروژه ها
-      url: /project/
-      weight: 40
+#    - identifier: projects
+#      name: پروژه ها
+#      url: /project/
+#      weight: 40
     - identifier: now
       name: اکنون
       url: /now/
       weight: 30
     - identifier: archive
-      name: بایگانی
-      url: /archive/
+      name: جستجو
+      url: /archives/
       weight: 50
 
 # for a search page

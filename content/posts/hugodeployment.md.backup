@@ -17,7 +17,7 @@ hideSummary: false
 searchHidden: true
 ShowReadingTime: false
 ShowBreadCrumbs: false
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 
 
 ---
