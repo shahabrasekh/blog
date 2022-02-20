@@ -1,10 +1,13 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "کوله پشتی ۱۴۰۰"
+date: 2022-02-20T11:02:08+03:30
 lastmod: 
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags:
+  - کوله پشتی
+  - دستاوردها
+  - تجربه
 author: "شهاب راسخ"
 # author: ["Me", "You"] # multiple authors
 showToc: false
@@ -19,7 +22,7 @@ searchHidden: true
 ShowReadingTime: false
 ShowBreadCrumbs: false
 ShowPostNavLinks: false
-Summary: توضیحی به اختصار از محتوای پست
+Summary: به اختصار از یافته ها و دریافت ها از ۱۴۰۰ می نویسم
 cover:
     image: "<image path/url>"
     # can also paste direct link from external site
