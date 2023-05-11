@@ -24,11 +24,11 @@ ShowBreadCrumbs: false
 ShowPostNavLinks: false
 Summary: درباره چشم انداز، ماموریت و دستاوردهای سازمان APQC
 cover:
-  image: https://www.apqc.org/sites/default/files/styles/square_sm/public/2018-11/Photo_GEN_OrigamiBoat.jpg?itok=pcHdoobp#center
+  image: https://blogpics.s3.ir-thr-at1.arvanstorage.com/cover_preface.jpg
   alt: "APQC culture"
-  caption: "<text>" # display caption under cover
+  caption: "APQC" # display caption under cover
   relative: false # when using page bundles set this to true
-  hidden: true # only hide on current single page
+  hidden: false # only hide on current single page
 ---
 
 قبلا با مختصری از [تاریخچه](https://shahabrasekh.ir/posts/startipqc/) این سازمان آشنا شدیم. اینک ابعاد بیشتری از این سازمان را در این پست بررسی می کنیم.
