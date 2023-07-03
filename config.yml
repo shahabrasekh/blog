@@ -73,14 +73,17 @@ params:
   socialIcons:
     - name: twitter
       url: "https://twitter.com/rasekh_shahab"
-    - name: instagram
-      url: "https://instagram.com/shahab_rasekh"
+#    - name: instagram
+#      url: "https://instagram.com/shahab_rasekh"
     - name: github
       url: "https://github.com/shahabrasekh"
     - name: linkedin
       url: "https://www.linkedin.com/in/shahabrasekh/"
+    - name: mastodon
+      url: "@shahabrasekh@mastodon.social"
     - name: email
       url: "mailto:blog@shahabrasekh.ir"
+
 
   analytics:
     google:
@@ -133,7 +136,7 @@ menu:
       url: /now/
       weight: 30
     - identifier: archive
-      name: جستجو
+      name: 🔍
       url: /archives/
       weight: 50
 

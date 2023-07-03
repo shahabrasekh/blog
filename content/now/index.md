@@ -4,9 +4,9 @@ date: 2021-12-30T12:53:51+03:30
 draft: false
 comments: false
 cover:
-   image: https://blogpics.s3.ir-thr-at1.arvanstorage.com/now.jpg
+   image: https://blogpics.s3.ir-thr-at1.arvanstorage.ir/Screenshot-from-2023-06-28-07-42-05.png
    alt: "just now"
-   caption: "Photo by freestocks on Unsplash"
+   caption: "debian 12 gnome DE"
    relative: false # when using page bundles set this to true
    hidden: false # only hide on current single page
 ---
@@ -24,7 +24,9 @@ cover:
 
 از فروردین سال ۱۴۰۱ به تیم [جاجیگا](jajiga.ir) پیوستم. و در مورد این تصمیم، آموزه ها و تجربه هایم در جاجیگا و گیلان، بزودی بیشتر می نویسم.
 
-دیگر پروژه ای که در حال تحلیل است و سعی در پیاده سازی آن دارم [کنوک](kanook.me) است.
+تجربه [کنوک](kanook.me) تقریبا شکست خورد، از درس آموخته های آن می نویسم.
+
+تحقیق در مورد استراتژی ها و  رویکردهای خدمات مشتریان در شرکت هایی که با بازارهای دوسویه کار می کنند.
 
 در سال گذشته کمتر به نوششتن پرداختم. اما حتما سال جدید ۱۴۰۲ را بیشتر به این امر اختصاص خواهم داد.
 
