@@ -80,7 +80,7 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/shahabrasekh/"
     - name: mastodon
-      url: "@shahabrasekh@mastodon.social"
+      url: "shahabrasekh@mastodon.social"
     - name: email
       url: "mailto:blog@shahabrasekh.ir"
 
@@ -137,7 +137,7 @@ menu:
       weight: 30
     - identifier: archive
       name: 🔍
-      url: /archives/
+      url: /search/
       weight: 50
 
 # for a search page
