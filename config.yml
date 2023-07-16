@@ -8,6 +8,8 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 defaultContentLanguage: fa
+enableGitInfo: true
+
 
 #googleAnalytics: UA-123-45
 
@@ -80,7 +82,7 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/shahabrasekh/"
     - name: mastodon
-      url: "shahabrasekh@mastodon.social"
+      url: "/@shahabrasekh@mastodon.social"
     - name: email
       url: "mailto:blog@shahabrasekh.ir"
 

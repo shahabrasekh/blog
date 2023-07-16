@@ -1,10 +1,17 @@
 ---
 title: "اکنون"
 date: 2021-12-30T12:53:51+03:30
+lastmod:
+ - :git
+ - lastmod
+ - date
+ - publishDate
+
 draft: false
+lastmod:
 comments: false
 cover:
-   image: https://blogpics.s3.ir-thr-at1.arvanstorage.ir/Screenshot-from-2023-06-28-07-42-05.png
+   image: https://blogpics.s3.ir-thr-at1.arvanstorage.ir/Screenshot-from-2023-07-16-08-25-54.png
    alt: "just now"
    caption: "debian 12 gnome DE"
    relative: false # when using page bundles set this to true
@@ -22,9 +29,9 @@ cover:
 
 با ایجاد تمرکز قصد دارم به کارهایی بپردازم که ارزش بیشتری در کار و زندگی ام ایجاد می کنند.
 
-از فروردین سال ۱۴۰۱ به تیم [جاجیگا](jajiga.ir) پیوستم. و در مورد این تصمیم، آموزه ها و تجربه هایم در جاجیگا و گیلان، بزودی بیشتر می نویسم.
+از فروردین سال ۱۴۰۱ به تیم [جاجیگا](https://www.jajiga.com/) پیوستم. و در مورد این تصمیم، آموزه ها و تجربه هایم در جاجیگا و گیلان، بزودی بیشتر می نویسم.
 
-تجربه [کنوک](kanook.me) تقریبا شکست خورد، از درس آموخته های آن می نویسم.
+تجربه [کنوک](https://kanook.me/) تقریبا شکست خورد، از درس آموخته های آن می نویسم.
 
 تحقیق در مورد استراتژی ها و  رویکردهای خدمات مشتریان در شرکت هایی که با بازارهای دوسویه کار می کنند.
 
