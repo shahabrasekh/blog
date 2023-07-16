@@ -1,12 +1,7 @@
 ---
 title: "اکنون"
 date: 2021-12-30T12:53:51+03:30
-lastmod:
- - :git
- - lastmod
- - date
- - publishDate
-
+lastmod: 
 draft: false
 lastmod:
 comments: false

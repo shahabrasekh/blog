@@ -10,6 +10,13 @@ buildExpired: false
 defaultContentLanguage: fa
 enableGitInfo: true
 
+frontmatter:
+  lastmod:
+  - lastmod
+  - :git
+  - date
+  - publishDate
+
 
 #googleAnalytics: UA-123-45
 
