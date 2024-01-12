@@ -1,6 +1,6 @@
 ---
-title: "Email"
-date: 2023-09-07T21:41:28+03:30
+title: "OddAndEvenPlan"
+date: 2023-12-29T19:47:27+03:30
 lastmod: 
 # weight: 1
 # aliases: ["/first"]
@@ -28,4 +28,3 @@ cover:
     caption: "<text>"
     relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
-

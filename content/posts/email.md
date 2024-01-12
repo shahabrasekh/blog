@@ -19,7 +19,7 @@ searchHidden: true
 ShowReadingTime: false
 ShowBreadCrumbs: false
 ShowPostNavLinks: false
-Summary: توضیحی به اختصار از محتوای پست
+Summary: چرا ایمیل نه؟
 cover:
     image: "<image path/url>"
     # can also paste direct link from external site
@@ -28,3 +28,7 @@ cover:
     caption: "<text>"
     relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
+
+زمانی که به این پست فکر کردم، دغدغه ام اینه که چرا ایمیل در ایران مهجور مونده و به چشم ابزاری پیچیده و دارای دموکراسی بهش نگاه میشه.
+شاهدان این جمله:
+تجربه استفاده همکاران و دوستان من از ایمیل برای ارتباط با دوستان و همکاران تقریبا صفر است. (آیا میشه به این گذاره اتکا کرد؟)
